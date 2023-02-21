@@ -1,15 +1,14 @@
-﻿# What is Ariawase?
+﻿## command
 
-Ariawase is an open source VBA library.
+エクセルファイルからマクロを抽出
+```
+cscript vbac.wsf decombine
+```
 
-## Quick Start
+記述したマクロをエクセルファイルに反映
+```
+.\reload.ps1 <ファイル名>
 
-Run `build.bat`, you'll get office macro-enabled file in bin directory.
-
-## Articles
-
-Coming soon! Please check back.
-
-## License
-
-This software is released under the MIT License, see [LICENSE.txt](./LICENSE.txt).
+例)
+.\reload.ps1 Sample.xlsm
+```
